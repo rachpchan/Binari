@@ -10,7 +10,7 @@ const Canvas = props => {
     window.devicePixelRatio < 2 ? 2 : window.devicePixelRatio;
     const windowSize = elementScale * 500;
     /*Array of all nodes*/
-    var nodeList;
+    let nodeList;
     /*All nodes represented as a reference to the root node*/
     let tree = props.tree;
     /*Offset of the root node from the top of the canvas relative to elementScale*/
