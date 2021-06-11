@@ -19,7 +19,7 @@ import LandingPage from "views/LandingPage/LandingPage.js";
 import Playground from "views/Playground/Playground";
 import About from "views/About/About";
 
-var hist = createBrowserHistory();
+const hist = createBrowserHistory();
 const useStyles = makeStyles(styles);
 
 function App() {
